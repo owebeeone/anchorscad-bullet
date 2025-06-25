@@ -7,7 +7,14 @@ authors = [
     { name = "Gianni Mariani", email = "owebeeone@gmail.com" }
 ]
 requires-python = ">=3.10"
-dependencies = []
+dependencies = [
+    "anchorscad-core",
+    "pythonopenscad",
+    "pybullet",
+    "numpy",
+    "trimesh",
+    "manifold3d",
+]
 
 [build-system]
 requires = ["hatchling"]

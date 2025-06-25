@@ -2,10 +2,9 @@ import importlib
 import inspect
 import sys
 import time
-from typing import Any, Callable, get_args, get_origin
-from anchorscad.renderer import PartMaterial
+from typing import Any, get_args, get_origin
 import pythonopenscad as posc
-from anchorscad import Shape, find_all_shape_classes
+from anchorscad import find_all_shape_classes
 
 import argparse
 import pybullet as p

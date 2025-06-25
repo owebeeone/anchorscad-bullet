@@ -1,10 +1,10 @@
 [project]
 name = "anchorscad-bullet"
-version = "0.1.0"
+version = "0.1.1"
 description = "AnchorSCAD to PyBullet mesh converter."
 readme = "README.md"
 authors = [
-    { name = "Gianni Mariani", email = "owebeeone@gmail.com" }
+    { name = "Gianni Mariani", email = "owebeeone@gmail.com" },
 ]
 requires-python = ">=3.10"
 dependencies = [
@@ -17,5 +17,7 @@ dependencies = [
 ]
 
 [build-system]
-requires = ["hatchling"]
+requires = [
+    "hatchling",
+]
 build-backend = "hatchling.build"

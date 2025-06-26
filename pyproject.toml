@@ -1,6 +1,6 @@
 [project]
 name = "anchorscad-bullet"
-version = "0.1.1"
+version = "0.1.2"
 description = "AnchorSCAD to PyBullet mesh converter."
 readme = "README.md"
 authors = [

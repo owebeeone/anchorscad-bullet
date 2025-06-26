@@ -9,7 +9,7 @@ from anchorscad import find_all_shape_classes
 import argparse
 import pybullet as p
 import pybullet_data
-from render_bullet import APModel
+from anchorscad_bullet.render_bullet import APModel
 import numpy as np
 
 
